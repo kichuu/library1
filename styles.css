@@ -36,3 +36,19 @@ input[type="checkbox"] {
     border-radius: 10px;
     border: none;
 }
+
+.bookcard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+.book-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    font-size: large;
+}
