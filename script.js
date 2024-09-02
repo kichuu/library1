@@ -10,6 +10,9 @@ function book(title, author, pages, isRead = false) {
         const readStatus = this.isRead ? 'read' : 'not read';
         return `${this.title} by ${this.author}, ${this.pages} pages, ${readStatus}`;
     }
+    this.changeReadStatus = function () {
+        this.isRead = !this.isRead;
+    }
 }
 const book1 = new book('book1', 'author1', 100, true);
 console.log(book1.info());
